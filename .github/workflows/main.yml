@@ -28,4 +28,4 @@ jobs:
       - name: Java tests
         uses: minakoari/actions-test@main
         with:
-          args: --test=maven
+          args: --type=maven
